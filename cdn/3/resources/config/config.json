@@ -23,9 +23,9 @@
      "type": "FEATURE_LAYER",
      "sourceLabel": "Response Strategies",
      "portalUrl": "https://wrienviro.maps.arcgis.com",
-     "itemId": "2a342471c5f64d94977678fca2e6ae38",
+     "itemId": "d066980353354f21924b0259e2f198d4",
      "layerId": "0",
-     "url": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WA_ECY_GRP_Strategies/FeatureServer/0"
+     "url": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WA_ECY_GRP_Strategies_pub/FeatureServer/0"
     }
    }
   }
@@ -639,7 +639,7 @@
     "listSyncSiteCodeField": "ShortName",
     "siteLayers": [
      {
-      "url": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WA_ECY_GRP_Strategies/FeatureServer/0",
+      "url": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WA_ECY_GRP_Strategies_pub/FeatureServer/0",
       "nameField": "GeographicName",
       "bufferM": 500,
       "where": "SubAreaCode = 'SPR'",
@@ -649,7 +649,7 @@
        "GlobalID"
       ],
       "boomLayer": {
-       "url": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WA_ECY_GRP_Strategies/FeatureServer/4",
+       "url": "https://services6.arcgis.com/Ji79lWGR5B33LhY7/arcgis/rest/services/WA_ECY_GRP_Strategies_pub/FeatureServer/4",
        "siteKeyField": "site_globalid",
        "where": "SubAreaCode = 'SPR'"
       }
