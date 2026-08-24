@@ -518,7 +518,7 @@
       ]
      }
     ],
-    "sortOpen": true,
+    "sortOpen": false,
     "isShowAutoRefresh": false,
     "layoutType": "ROW",
     "keepAspectRatio": false
@@ -544,7 +544,8 @@
      ]
     }
    ],
-   "useDataSourcesEnabled": true
+   "useDataSourcesEnabled": true,
+   "enableDataAction": false
   },
   "widget_12": {
    "id": "widget_12",
@@ -552,7 +553,7 @@
    "version": "1.20.0",
    "label": "Site Card Text",
    "config": {
-    "text": "<p><span style=\"font-size:15px;font-weight:bold;\"><exp data-uniqueid=\"4555b307ed48\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BShortName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShortName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22ShortName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{ShortName}</exp></span><span style=\"font-size:15px;\"> &mdash; <exp data-uniqueid=\"6d5a925e1eaf\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BGeographicName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BGeographicName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22GeographicName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{GeographicName}</exp></span></p><p><span style=\"font-size:12px;color: var(--sys-color-surface-paper-hint);\"><exp data-uniqueid=\"47b3b31b3a34\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BWatercourseDescription%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWatercourseDescription%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22WatercourseDescription%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{WatercourseDescription}</exp> &bull; <exp data-uniqueid=\"4ef9e7dceddb\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BSectorShortName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSectorShortName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22SectorShortName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{SectorShortName}</exp></span></p>",
+    "text": "<p><span style=\"font-size:15px;font-weight:bold;\"><exp data-uniqueid=\"202bec1c42ac\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BShortName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BShortName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22ShortName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{ShortName}</exp></span><span style=\"font-size:15px;\"> &mdash; <exp data-uniqueid=\"57042d957a4c\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BGeographicName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BGeographicName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22GeographicName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{GeographicName}</exp></span></p><p><span style=\"font-size:12px;color: var(--sys-color-surface-paper-hint);\"><exp data-uniqueid=\"a0d85eabd541\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BWatercourseDescription%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BWatercourseDescription%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22WatercourseDescription%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{WatercourseDescription}</exp> &bull; <exp data-uniqueid=\"046925dfad1a\" data-dsid=\"dataSource_1-SPR_sites\" data-expression=\"%7B%22name%22%3A%22%7BSectorShortName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSectorShortName%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-SPR_sites%22%2C%22jimuFieldName%22%3A%22SectorShortName%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">{SectorShortName}</exp></span></p>",
     "placeholder": "",
     "style": {
      "verticalAlign": "center",
